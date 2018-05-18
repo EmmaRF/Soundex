@@ -1,5 +1,5 @@
 /**
- * 
+ * GitHub: https://github.com/EmmaRF/Soundex/blob/master/JavaSoundex/Soundex.java
  * @author Emma R. Fronberg
  */
 public class Soundex {

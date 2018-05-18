@@ -1,3 +1,4 @@
+// GitHub: https://github.com/EmmaRF/Soundex/blob/master/JavaScriptSoundex/Give_us_your_full_name_in_Soundex_form.js
 var emmaName = "Emma Rose Fronberg";
 var enterpriseCaptain = "James Tiberius Kirk";
 var enterpriseScience = "Spock";
