@@ -31,7 +31,7 @@ function soundex(str) {
     numStr = numStr.replace(mn, "5");          // Step 2
     numStr = numStr.replace(r, "6");           // Step 2
     
-    // Delete exessive repeating digits, including first letter repeats
+    // Delete excessive repeating digits, including first letter repeats
     numStr = numStr.replace(repeat, function (x) {  // Step 3
         return x%10;                                // The remainder would be a single instance of that number
     });                                              
@@ -50,7 +50,7 @@ function soundex(str) {
     // Replace first letter
     for(var i = 0; i < splitStrArray.length; i++){ 
         splitNumArray[i] = splitNumArray[i].replace(start, splitStrArray[i].charAt(0)); // Step 1, make sure that the first letter is not a number
-        splitNumArray[i] = splitNumArray[i].replace(ignore, "");                        // Step 1, remove any vowls, Hs, and Ws (excluding the first letter)
+        splitNumArray[i] = splitNumArray[i].replace(ignore, "");                        // Step 1, remove any vowels, Hs, and Ws (excluding the first letter)
         
         if(splitNumArray[i].length < 4){                                                // Step 4, add extra 0s when needed
             while(splitNumArray[i].length < 4){
